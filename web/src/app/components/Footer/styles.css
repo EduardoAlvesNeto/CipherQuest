@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  gap: 0.6rem;
+
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.footer p {
+  font-size: 1.2rem
+}
+
+.footer .footer-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footer-links a>svg {
+  width: 1.6rem;
+  height: auto;
+
+  color: var(--black);
+
+  cursor: pointer;
+}
+
+.footer .footer-links a>svg:hover {
+  color: var(--blue);
+  transition: 1s;
+}

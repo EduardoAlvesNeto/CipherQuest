@@ -1,0 +1,22 @@
+.button-container {
+  width: 100%;
+  text-align: center;
+
+  padding: 1.4rem;
+  margin: 0.8rem 0 0 0;
+
+  color: var(--white);
+  background-color: var(--blue);
+
+  border-radius: 0.4rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  cursor: pointer;
+}
+
+.button-container:disabled {
+  background-color: gray;
+
+  cursor: default;
+}

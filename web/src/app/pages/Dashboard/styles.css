@@ -1,0 +1,52 @@
+.dashboard-main {
+  display: block;
+
+  width: 80vw;
+  height: 70vh;
+
+  overflow-y: auto;
+
+  border-radius: 1.6rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 1.2rem;
+
+  width: 100%;
+
+  padding: 0.8rem 2.4rem;
+}
+
+.dashboard-header .logout-icon>svg,
+.dashboard-header .add-card-icon>svg {
+  width: 16px;
+  height: auto;
+  color: var(--black);
+
+  cursor: pointer;
+}
+
+.dashboard-header .add-card-icon>svg:hover {
+  color: var(--blue);
+  transition: 1s;
+}
+
+.dashboard-header .logout-icon>svg:hover {
+  color: var(--red);
+
+  transition: 1s;
+}
+
+.dashboard-main .empty-cards {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 1.4rem;
+}

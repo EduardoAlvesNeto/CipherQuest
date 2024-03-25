@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #ffff;
+  --blue: #336CDA;
+  --black: #282828;
+  --red: #FF5733;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 100vh;
+  max-height: 90%;
+}
+
+.error-message {
+  color: var(--red);
+  font-size: 1rem;
+}
+
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: #336CDA;
+  font-weight: 500;
+}

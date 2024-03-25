@@ -1,0 +1,53 @@
+.cardmock-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.8rem;
+
+  width: 100%;
+  min-width: 25rem;
+
+  height: 12rem;
+
+  border-radius: 1.2rem;
+
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.cardmock-container .cardmock-brand {
+  display: flex;
+
+  width: 6.4rem;
+
+  height: auto;
+
+  align-self: flex-start;
+}
+
+.cardmock-data {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.cardmock-data .cardmock-primary {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.2rem;
+}
+
+.cardmock-primary .cardmock-name {}
+
+.cardmock-primary .cardmock-number {}
+
+.cardmock-data .cardmock-secundary {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-secundary .card-expiration {}
+
+.card-secundary .card-cvv {}

@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.6rem;
+
+  width: 100vw;
+  padding: 1.2rem;
+}
+
+.header img {
+  width: 2.4rem;
+  height: auto;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+
+  color: #336CDA
+}
+
+.header h1 strong {
+  color: #282828;
+}

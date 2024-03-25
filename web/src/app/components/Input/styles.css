@@ -1,0 +1,30 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.4rem;
+
+  width: 100%;
+
+  margin: 0.8rem 0;
+}
+
+.input {
+  display: block;
+
+  padding: 1.4rem 2.4rem;
+  border-radius: 0.8rem;
+  border: solid #B6AFAF 0.1rem;
+
+  background-color: #eaeaea;
+  color: #282828;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input-label {
+  font-size: 1.2rem;
+  font-weight: 300;
+
+  text-transform: capitalize;
+}
